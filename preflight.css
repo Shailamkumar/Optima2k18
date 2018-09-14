@@ -77,9 +77,10 @@ figure {
  */
 
 hr {
-  box-sizing: content-box; /* 1 */
-  height: 0; /* 1 */
+  box-sizing: content-box; /* 1 --------------------issue----------------*/
+  height: 1; /* 1 */
   overflow: visible; /* 2 */
+  background-color: aquamarine;
 }
 
 /**
@@ -101,7 +102,8 @@ pre {
  */
 
 a {
-  background-color: transparent; /* 1 */
+  color: white;
+  background-color: transparent; /* 1 ------------------------------check it once*/ 
   -webkit-text-decoration-skip: objects; /* 2 */
 }
 
